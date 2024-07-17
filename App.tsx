@@ -58,7 +58,7 @@ function App() {
     <GestureHandlerRootView style={{flex: 1}}>
       <SafeAreaView style={{flex: 1, backgroundColor: '#F5F5F5'}}>
         <NavigationContainer>
-          <NoAuthRoutes />
+          <AuthRoutes />
         </NavigationContainer>
       </SafeAreaView>
     </GestureHandlerRootView>

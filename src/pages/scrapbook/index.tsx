@@ -8,7 +8,6 @@ function ScrapBook(): React.JSX.Element {
 
   return (
     <>
-      <UserHeader />
       <View
         style={{
           display: 'flex',
