@@ -940,6 +940,8 @@ PODS:
     - React-debug
   - react-native-color-matrix-image-filters (6.0.9):
     - React-Core
+  - react-native-safe-area-context (4.10.8):
+    - React-Core
   - React-nativeconfig (0.74.3)
   - React-NativeModulesApple (0.74.3):
     - glog
@@ -1211,10 +1213,38 @@ PODS:
     - ReactCommon/turbomodule/bridging
     - ReactCommon/turbomodule/core
     - Yoga
+  - RNScreens (3.32.0):
+    - DoubleConversion
+    - glog
+    - hermes-engine
+    - RCT-Folly (= 2024.01.01.00)
+    - RCTRequired
+    - RCTTypeSafety
+    - React-Codegen
+    - React-Core
+    - React-debug
+    - React-Fabric
+    - React-featureflags
+    - React-graphics
+    - React-ImageManager
+    - React-NativeModulesApple
+    - React-RCTFabric
+    - React-RCTImage
+    - React-rendererdebug
+    - React-utils
+    - ReactCommon/turbomodule/bridging
+    - ReactCommon/turbomodule/core
+    - Yoga
   - SDWebImage (5.19.4):
     - SDWebImage/Core (= 5.19.4)
   - SDWebImage/Core (5.19.4)
   - SocketRocket (0.7.0)
+  - VisionCamera (4.5.0):
+    - VisionCamera/Core (= 4.5.0)
+    - VisionCamera/React (= 4.5.0)
+  - VisionCamera/Core (4.5.0)
+  - VisionCamera/React (4.5.0):
+    - React-Core
   - Yoga (0.0.0)
 
 DEPENDENCIES:
@@ -1252,6 +1282,7 @@ DEPENDENCIES:
   - React-logger (from `../node_modules/react-native/ReactCommon/logger`)
   - React-Mapbuffer (from `../node_modules/react-native/ReactCommon`)
   - react-native-color-matrix-image-filters (from `../node_modules/react-native-color-matrix-image-filters`)
+  - react-native-safe-area-context (from `../node_modules/react-native-safe-area-context`)
   - React-nativeconfig (from `../node_modules/react-native/ReactCommon`)
   - React-NativeModulesApple (from `../node_modules/react-native/ReactCommon/react/nativemodule/core/platform/ios`)
   - React-perflogger (from `../node_modules/react-native/ReactCommon/reactperflogger`)
@@ -1277,6 +1308,8 @@ DEPENDENCIES:
   - ReactCommon/turbomodule/core (from `../node_modules/react-native/ReactCommon`)
   - RNGestureHandler (from `../node_modules/react-native-gesture-handler`)
   - RNReanimated (from `../node_modules/react-native-reanimated`)
+  - RNScreens (from `../node_modules/react-native-screens`)
+  - VisionCamera (from `../node_modules/react-native-vision-camera`)
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
 SPEC REPOS:
@@ -1350,6 +1383,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/ReactCommon"
   react-native-color-matrix-image-filters:
     :path: "../node_modules/react-native-color-matrix-image-filters"
+  react-native-safe-area-context:
+    :path: "../node_modules/react-native-safe-area-context"
   React-nativeconfig:
     :path: "../node_modules/react-native/ReactCommon"
   React-NativeModulesApple:
@@ -1400,6 +1435,10 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native-gesture-handler"
   RNReanimated:
     :path: "../node_modules/react-native-reanimated"
+  RNScreens:
+    :path: "../node_modules/react-native-screens"
+  VisionCamera:
+    :path: "../node_modules/react-native-vision-camera"
   Yoga:
     :path: "../node_modules/react-native/ReactCommon/yoga"
 
@@ -1436,6 +1475,7 @@ SPEC CHECKSUMS:
   React-logger: fa92ba4d3a5d39ac450f59be2a3cec7b099f0304
   React-Mapbuffer: 9f68550e7c6839d01411ac8896aea5c868eff63a
   react-native-color-matrix-image-filters: e2df0971b44f1aba49f4740463fdda857d467adf
+  react-native-safe-area-context: b7daa1a8df36095a032dff095a1ea8963cb48371
   React-nativeconfig: fa5de9d8f4dbd5917358f8ad3ad1e08762f01dcb
   React-NativeModulesApple: 585d1b78e0597de364d259cb56007052d0bda5e5
   React-perflogger: 7bb9ba49435ff66b666e7966ee10082508a203e8
@@ -1461,8 +1501,10 @@ SPEC CHECKSUMS:
   ReactCommon: f00e436b3925a7ae44dfa294b43ef360fbd8ccc4
   RNGestureHandler: 8dbcccada4a7e702e7dec9338c251b1cf393c960
   RNReanimated: f4ff116e33e0afc3d127f70efe928847c7c66355
+  RNScreens: 5aeecbb09aa7285379b6e9f3c8a3c859bb16401c
   SDWebImage: 066c47b573f408f18caa467d71deace7c0f8280d
   SocketRocket: abac6f5de4d4d62d24e11868d7a2f427e0ef940d
+  VisionCamera: 412fec057156eb5fe84a44351e8ed71a072c1228
   Yoga: 04f1db30bb810187397fa4c37dd1868a27af229c
 
 PODFILE CHECKSUM: 0ad61e0a48a7f8724de6a502a3882bde0d779030

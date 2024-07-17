@@ -12,11 +12,12 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		3E91059124EA403E9E8A11EC /* Nunito-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B7C9835B0889414D972CD41E /* Nunito-Bold.ttf */; };
+		50BECA36501243AEBA5CAF32 /* Nunito-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3BB0BE7EFA8A45AAB67516ED /* Nunito-ExtraBold.ttf */; };
+		62B5C71427824B9195B1CD8E /* Nunito-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD2B804F2E83462FAFC3EF02 /* Nunito-Regular.ttf */; };
 		7699B88040F8A987B510C191 /* libPods-CXPIApp-CXPIAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-CXPIApp-CXPIAppTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		B58298834462DE15747227B0 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = C4AD4E9A504834979A58347A /* PrivacyInfo.xcprivacy */; };
-		50BECA36501243AEBA5CAF32 /* Nunito-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3BB0BE7EFA8A45AAB67516ED /* Nunito-ExtraBold.ttf */; };
-		62B5C71427824B9195B1CD8E /* Nunito-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD2B804F2E83462FAFC3EF02 /* Nunito-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,15 +43,16 @@
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = CXPIApp/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-CXPIApp-CXPIAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CXPIApp-CXPIAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B4392A12AC88292D35C810B /* Pods-CXPIApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CXPIApp.debug.xcconfig"; path = "Target Support Files/Pods-CXPIApp/Pods-CXPIApp.debug.xcconfig"; sourceTree = "<group>"; };
+		3BB0BE7EFA8A45AAB67516ED /* Nunito-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Nunito-ExtraBold.ttf"; path = "../src/assets/fonts/Nunito-ExtraBold.ttf"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-CXPIApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CXPIApp.release.xcconfig"; path = "Target Support Files/Pods-CXPIApp/Pods-CXPIApp.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-CXPIApp-CXPIAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CXPIApp-CXPIAppTests.debug.xcconfig"; path = "Target Support Files/Pods-CXPIApp-CXPIAppTests/Pods-CXPIApp-CXPIAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-CXPIApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CXPIApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = CXPIApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-CXPIApp-CXPIAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CXPIApp-CXPIAppTests.release.xcconfig"; path = "Target Support Files/Pods-CXPIApp-CXPIAppTests/Pods-CXPIApp-CXPIAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		B7C9835B0889414D972CD41E /* Nunito-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Nunito-Bold.ttf"; path = "../src/assets/fonts/Nunito-Bold.ttf"; sourceTree = "<group>"; };
+		BD2B804F2E83462FAFC3EF02 /* Nunito-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Nunito-Regular.ttf"; path = "../src/assets/fonts/Nunito-Regular.ttf"; sourceTree = "<group>"; };
 		C4AD4E9A504834979A58347A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = CXPIApp/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		3BB0BE7EFA8A45AAB67516ED /* Nunito-ExtraBold.ttf */ = {isa = PBXFileReference; name = "Nunito-ExtraBold.ttf"; path = "../src/assets/fonts/Nunito-ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		BD2B804F2E83462FAFC3EF02 /* Nunito-Regular.ttf */ = {isa = PBXFileReference; name = "Nunito-Regular.ttf"; path = "../src/assets/fonts/Nunito-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,17 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		77CD921357894F808FF62290 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3BB0BE7EFA8A45AAB67516ED /* Nunito-ExtraBold.ttf */,
+				BD2B804F2E83462FAFC3EF02 /* Nunito-Regular.ttf */,
+				B7C9835B0889414D972CD41E /* Nunito-Bold.ttf */,
+			);
+			name = Resources;
+			path = "";
+			sourceTree = "<group>";
+		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
@@ -157,16 +170,6 @@
 			);
 			path = Pods;
 			sourceTree = "<group>";
-		};
-		77CD921357894F808FF62290 /* Resources */ = {
-			isa = "PBXGroup";
-			children = (
-				3BB0BE7EFA8A45AAB67516ED /* Nunito-ExtraBold.ttf */,
-				BD2B804F2E83462FAFC3EF02 /* Nunito-Regular.ttf */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-			path = "";
 		};
 /* End PBXGroup section */
 
@@ -266,6 +269,7 @@
 				B58298834462DE15747227B0 /* PrivacyInfo.xcprivacy in Resources */,
 				50BECA36501243AEBA5CAF32 /* Nunito-ExtraBold.ttf in Resources */,
 				62B5C71427824B9195B1CD8E /* Nunito-Regular.ttf in Resources */,
+				3E91059124EA403E9E8A11EC /* Nunito-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

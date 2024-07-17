@@ -27,7 +27,6 @@ const CardContainer = ({
     <>
       {data.map((item, i) => {
         return (
-          <>
             <Card
               key={i}
               item={item}
@@ -40,7 +39,6 @@ const CardContainer = ({
               width={width - 34}
               height={width - 34}
             />
-          </>
         );
     })}
       <Animated.View

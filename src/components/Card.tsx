@@ -1,4 +1,3 @@
-import {Dimensions} from 'react-native';
 import {ICardItem} from '../interfaces/ICardItem';
 // @ts-ignore
 import BlastedImage from 'react-native-blasted-image';
